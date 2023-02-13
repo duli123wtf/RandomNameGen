@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./public/styles/normalize.css" />
+    <link rel="stylesheet" href="./public/styles/customize.css">
+    <link rel="stylesheet" href="./public/styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style> @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap'); </style>        
+    <link rel="icon" href="./public/images/perspective-dice-six-faces-random.svg" />
     <title>RandomNameGen</title>
-    <link rel="icon" href="./images/perspective-dice-six-faces-random.svg" />
 </head>
-
 <body>
     <header id="header-main">
         <div id="logo-container">
@@ -27,19 +26,19 @@
             <header>
                 <h3>GENERADOR DE NOMBRES ALEATORIOS</h3>
             </header>
-            <div id="name-aleatory" class="namerandom">
-                <h2>AQUÍ SE GENERARÁ SU NOMBRE ALEATORIO</h2>
+            <div id="name-aleatory">
+                <h2>AQUÍ SE GENERARÁ SU NOMBRE</h2>
             </div>
             <div class="buttons">
-                <button id="btn-man" class="custom-btn" onclick="generate()">
+                <button id="btn-man" class="custom-btn">
                     <span>Varón</span>
                     <iconify-icon icon="mdi:face-man"></iconify-icon>
                 </button>
-                <button id="btn-woman" class="custom-btn" onclick="generate()">
+                <button id="btn-woman" class="custom-btn">
                     <span>Mujer</span>
                     <iconify-icon icon="mdi:face-woman"></iconify-icon>
                 </button>
-                <button id="btn-general" class="custom-btn" onclick="generate()">
+                <button id="btn-general" class="custom-btn">
                     <span>General</span>
                     <iconify-icon icon="mdi:pac-man"></iconify-icon>
                 </button>
@@ -51,7 +50,6 @@
         <h4>POWERED BY ALEXIS</h4>
     </footer>
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+    <script type="module" src="./public/scripts/index.js"></script>
 </body>
-
 </html>

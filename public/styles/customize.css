@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap');
 /* header-main */
 #header-main {
     background-color: #151515;
@@ -86,5 +87,13 @@ footer h4 {
     }
     .custom-btn iconify-icon {
         font-size: 37.5px;
+    }  
+    #footer-main {
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #footer-main h4 {
+        font-size: 12px;
     }
 }

@@ -1,8 +1,8 @@
 export const GENDERS = {
-    MALE: "MALE",
-    FEMALE: "FEMALE"
+    MALE: "male",
+    FEMALE: "female"
 }
-export const names = {
+export const NAMES = {
     [GENDERS.MALE]: [
         'ADAM', 'ALEX', 'AARON', 'ALAN', 'ALBERT', 'BOBBY', 'BRAD', 'BRANDON',
         'BRIAN', 'BROWN', 'CALVIN', 'CARLOS', 'CHARLES', 'CHRIS', 'CHRISTIAN', 'DAVID',
@@ -20,7 +20,7 @@ export const names = {
         'COURTNEY', 'CRYSTAL', 'DAISY', 'DANA', 'DANIELLE', 'DEBORAH', 'DELANEY', 'DIANA'
     ]
 };
-export const surnames = [
+export const SURNAMES = [
     'SMITH', 'JOHNSON', 'WILLIAMS', 'JONES', 'BROWN', 'DAVIS', 'MILLER', 'WILSON', 'MOORE',
     'TAYLOR', 'ANDERSON', 'THOMAS', 'JACKSON', 'WHITE', 'HARRIS', 'MARTIN', 'THOMPSON',
     'GARCÍA', 'MARTÍNEZ', 'RODRÍGUEZ', 'PÉREZ', 'GONZÁLEZ', 'RIVERA', 'DÍAZ', 'HERNÁNDEZ',

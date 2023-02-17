@@ -1,16 +1,16 @@
-import { surnames, names, GENDERS } from './constants.js';
+import { SURNAMES, NAMES, GENDERS } from './constants.js';
 const getRandomNumber = (max = 11) => {
     return Math.floor(Math.random() * max);
 };
 const generateFullName = (gender) => {
-    const quantityNames = getRandomNumber(2) + 1;
-    const specifyNames = names[gender];
+    const quantityNAMES = getRandomNumber(2) + 1;
+    const specifyNAMES = NAMES[gender];
     let fullName = '';
-    for (let i = 0; i < quantityNames; i++) {
-        fullName += specifyNames[getRandomNumber(specifyNames.length)] + ' ';
+    for (let i = 0; i < quantityNAMES; i++) {
+        fullName += specifyNAMES[getRandomNumber(specifyNAMES.length)] + ' ';
     }
-    fullName += surnames[getRandomNumber(surnames.length)] + ' ';
-    fullName += surnames[getRandomNumber(surnames.length)];
+    fullName += SURNAMES[getRandomNumber(SURNAMES.length)] + ' ';
+    fullName += SURNAMES[getRandomNumber(SURNAMES.length)];
     fullName = fullName.trim();
     //Llenando nombre aleatorio
     document.querySelector('#name-aleatory h2').innerText = fullName;

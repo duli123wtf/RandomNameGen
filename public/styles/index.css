@@ -86,12 +86,6 @@ main * {
     header {
         justify-content: center;
     }
-    #header-main h1 {
-        font-size: 20px;
-    }
-    #header-main iconify-icon {
-        font-size: 40px;
-    }
     #principal-section {
         gap: 20px;
     }

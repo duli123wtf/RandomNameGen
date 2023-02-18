@@ -69,7 +69,7 @@
     width: 100%;
     user-select: none;
 }
-footer h4 {
+#footer-main h4 {
     color: #C1C1C1;
     font-style: normal;
     font-weight: 700;
@@ -78,6 +78,12 @@ footer h4 {
 }
 /* ----------- */
 @media (max-width: 360px) {
+    #header-main h1 {
+        font-size: 20px;
+    }
+    #header-main iconify-icon {
+        font-size: 40px;
+    }
     .custom-btn {
         padding: 7.75px;
         min-width: 150px;
@@ -87,5 +93,13 @@ footer h4 {
     }
     .custom-btn iconify-icon {
         font-size: 37.5px;
+    }  
+    #footer-main {
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #footer-main h4 {
+        font-size: 12px;
     }
 }

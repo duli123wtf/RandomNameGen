@@ -86,12 +86,6 @@ main * {
     header {
         justify-content: center;
     }
-    #header-main h1 {
-        font-size: 20px;
-    }
-    #header-main iconify-icon {
-        font-size: 40px;
-    }
     #principal-section {
         gap: 20px;
     }
@@ -100,13 +94,5 @@ main * {
     }
     #principal-section div h2 {
         font-size: 28px;
-    }
-    footer {
-        padding: 7px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    footer h4 {
-        font-size: 12px;
     }
 }

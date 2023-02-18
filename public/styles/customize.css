@@ -1,10 +1,41 @@
-/* custom-btn */
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap');
+/* header-main */
+#header-main {
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px;
+}
+#logo-container {
+    display: flex;
+    user-select: none;
+    gap: 10px;
+}
+#header-main h1 {
+    color: #FFFFFF;
+}
+#header-main iconify-icon {
+    color: #FFFFFF;
+    font-size: 45px;
+    align-self: center;
+}
+/* ----------- */
+/* buttons */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 50%;
+    gap: 30px;
+}
 .custom-btn {
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Oxanium';
     font-style: normal;
     padding: 15px;
     cursor: pointer;
@@ -15,7 +46,6 @@
     border: 1px solid transparent;
 }
 .custom-btn span {
-    font-family: 'Oxanium';
     font-size: 24px;
     color: #F9F9F9;
     transition: inherit;
@@ -26,6 +56,27 @@
     color: #FFFFFF;
     transition: inherit;
 }
+/* ----------- */
+/* footer-main */
+#footer-main {
+    padding: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+}
+footer h4 {
+    color: #C1C1C1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* ----------- */
 @media (max-width: 360px) {
     .custom-btn {
         padding: 7.75px;
@@ -38,4 +89,3 @@
         font-size: 37.5px;
     }
 }
-/* ==== */

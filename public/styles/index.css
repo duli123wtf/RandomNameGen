@@ -2,155 +2,87 @@
     box-sizing: border-box;
     font-family: "oxanium", cursive;
 }
-
 body {
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-header {
-    background-color: #151515;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 83px;
-    padding: 0px 50px;
-}
-
+/* main*/
 main {
     min-height: calc(100vh - 175px);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    vertical-align: middle;
 }
-
-#logo-container {
-    display: flex;
-    user-select: none;
-    gap: 10px;
+main * {
+    margin: 0;
 }
-
-#header-main h1 {
-    color: #FFFFFF;
-}
-
-#header-main iconify-icon {
-    color: #FFFFFF;
-    font-size: 45px;
-    align-self: center;
-}
-
+/* ----------- */
+/* principal-section */
 #principal-section {
     text-align: center;
-    margin-top: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
+    width: 80%;
 }
-
 #principal-section header {
     font-size: 20px;
     background-color: #ffffff;
 }
-
 #name-aleatory {
     font-size: 40px;
     color: #656565;
 }
-
-.buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    position: relative;
-    width: 30%;
-    gap: 30px;
-}
-
-
-
+/* ----------- */
+/* buttons */
 #btn-man {
     background-color: #6456FF;
     border-color: #6456FF;
 }
-
 #btn-man:hover {
     background-color: #FFFFFF;
     border-color: #6456FF;
 }
-
 #btn-man:hover span {
     color: #6456FF;
 }
-
 #btn-man:hover iconify-icon {
     color: #6456FF;
 }
-
 #btn-woman {
     background-color: #F85EFB;
     border-color: #F85EFB;
 }
-
 #btn-woman:hover {
     background-color: #FFFFFF;
     border-color: #F85EFB;
 }
-
 #btn-woman:hover span {
     color: #F85EFB;
 }
-
 #btn-woman:hover iconify-icon {
     color: #F85EFB;
 }
-
 #btn-general {
     background-color: #FB4040;
     border-color: #FB4040;
 }
-
 #btn-general:hover {
     background-color: #FFFFFF;
     border-color: #FB4040;
 }
-
 #btn-general:hover span {
     color: #FB4040;
 }
-
 #btn-general:hover iconify-icon {
     color: #FB4040;
 }
-
-footer {
-    padding: 13px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #ECECEC;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    user-select: none;
-}
-
-footer h4 {
-    color: #C1C1C1;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-}
-
+/* ----------- */
 @media (max-width: 360px) {
-    /* header-main */
     header {
         justify-content: center;
     }
@@ -160,8 +92,6 @@ footer h4 {
     #header-main iconify-icon {
         font-size: 40px;
     }
-    /* ------ */
-    /* principal-section */
     #principal-section {
         gap: 20px;
     }
@@ -170,17 +100,6 @@ footer h4 {
     }
     #principal-section div h2 {
         font-size: 28px;
-    }
-    /* ------ */
-    .custom-btn {
-        padding: 7.75px;
-        min-width: 150px;
-    }
-    .custom-btn span {
-        font-size: 18px;
-    }
-    .custom-btn iconify-icon {
-        font-size: 37.5px;
     }
     footer {
         padding: 7px;

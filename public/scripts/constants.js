@@ -1,5 +1,9 @@
+export const GENDERS = {
+    MALE: "male",
+    FEMALE: "female"
+};
 export const names = {
-    male: [
+    [GENDERS.MALE]: [
         "ADAM", "ALEX", "AARON", "ALAN", "ALBERT", "BOBBY", "BRAD", "BRANDON",
         "BRIAN", "BROWN", "CALVIN", "CARLOS", "CHARLES", "CHRIS", "CHRISTIAN", "DAVID",
         "DANIEL", "DEREK", "DERRICK", "DONATELLO", "EDWARD", "ERIC", "EVAN", "FRANK", "FRED",
@@ -7,7 +11,7 @@ export const names = {
         "JAMES", "JOE", "JOHN", "JONATHAN", "JOSEPH", "JUSTIN", "KEITH", "KENNETH", "KEVIN",
         "KYLE", "LARRY"
     ],
-    female: [
+    [GENDERS.FEMALE]: [
         "AALIYAH", "ABBY", "ADA", "ADDISON", "ADRIANA", "AISHA", "ALICIA", "ALLISON",
         "ALYSSA", "AMANDA", "AMBER", "AMELIA", "AMY", "ANA", "ANDREA", "ANGELA", "ANN",
         "ANNA", "ASHLEY", "AURORA", "AVA", "AVERY", "BAILEY", "BEATRICE", "BELLA", "BETH",
